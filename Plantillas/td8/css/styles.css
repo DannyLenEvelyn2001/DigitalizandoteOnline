@@ -1,0 +1,51 @@
+/* Ajuste de la altura de los inputs */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajuste de los textos y encabezados */
+h2.titulosector {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-control {
+    height: 45px;
+    /* Establece una altura estándar */
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Botón centrado */
+.input-group.justify-content-md-center {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button.btn-success {
+    background-color: #007bff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+button.btn-success:hover {
+    background-color: #0056b3;
+}
+
+
+
+.line-separator {
+    border: 0;
+    height: 1px;
+    background: #09d8db;
+    /* Color de la línea */
+    margin: 20px 0;
+    /* Espaciado superior e inferior */
+}

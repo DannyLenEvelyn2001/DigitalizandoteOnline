@@ -1,0 +1,104 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    /* Asegura que el carrusel esté centrado */
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* estilo de texto del carrosel */
+.text-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.text-container h2 {
+    font-family: Times New Roman, sans-serif;
+    margin: 10px 0 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0e0202;
+}
+
+.text-container p {
+    font-family: Tahoma;
+    margin: 0;
+    font-size: 16px;
+    color: #e2a62e;
+    font-weight: 400;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    /* Fondo oscuro */
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.back-button {
+    background-color: #4CAF50;
+    /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+    /* Verde más oscuro en hover */
+}

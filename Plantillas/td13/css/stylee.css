@@ -1,0 +1,86 @@
+/* Estilos para formulario oscuro con espaciado y placeholder */
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+h2.titulosector {
+    color: #F5F5F5;
+    border-bottom: 2px solid #4A4A4A;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    border-top: 1px solid #4A4A4A;
+    margin-bottom: 20px;
+}
+
+label.form-label {
+    color: #B3B3B3;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    /* Espacio debajo de la etiqueta */
+}
+
+input.form-control,
+textarea,
+select {
+    background-color: #2C2C2C;
+    color: #E0E0E0;
+    border: 1px solid #4A4A4A;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+    /* Espacio entre el label y el input */
+    margin-bottom: 20px;
+    /* Espacio entre campos */
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte el ancho */
+}
+
+/* Placeholder color */
+input.form-control::placeholder {
+    color: #9E9E9E;
+    /* Color del texto placeholder */
+    opacity: 1;
+    /* Asegura que el placeholder sea visible */
+}
+
+/* Ajustes de focus */
+input.form-control:focus {
+    background-color: #3A3A3A;
+    color: #FFFFFF;
+    border-color: #616161;
+    outline: none;
+    /* Remueve el borde azul por defecto */
+    box-shadow: 0 0 5px #616161;
+}
+
+/* Ajustes para el botón */
+button[type="submit"] {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #555555;
+}
